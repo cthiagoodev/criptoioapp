@@ -21,3 +21,4 @@
 
 - [Kotlin](https://kotlinlang.org/docs/getting-started.html) instalado
 - [Android Studio](https://developer.android.com/studio) configurado
+
