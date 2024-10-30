@@ -1,17 +1,23 @@
-This is a Kotlin Multiplatform project targeting Android, iOS.
+# Cripto IO
 
-* `/composeApp` is for code that will be shared across your Compose Multiplatform applications.
-  It contains several subfolders:
-  - `commonMain` is for code that’s common for all targets.
-  - Other folders are for Kotlin code that will be compiled for only the platform indicated in the folder name.
-    For example, if you want to use Apple’s CoreCrypto for the iOS part of your Kotlin app,
-    `iosMain` would be the right folder for such calls.
+**Cripto IO** é um aplicativo multiplataforma desenvolvido em Kotlin, projetado para fornecer cotações em tempo real de diversas criptomoedas. Com uma interface intuitiva e responsiva, os usuários podem acompanhar as flutuações do mercado e acessar informações detalhadas sobre suas criptomoedas favoritas. Este projeto utiliza as melhores práticas de desenvolvimento e integra APIs de mercado para garantir dados precisos e atualizados.
 
-* `/iosApp` contains iOS applications. Even if you’re sharing your UI with Compose Multiplatform, 
-  you need this entry point for your iOS app. This is also where you should add SwiftUI code for your project.
+## Funcionalidades
 
-* `/shared` is for the code that will be shared between all targets in the project.
-  The most important subfolder is `commonMain`. If preferred, you can add code to the platform-specific folders here too.
+- **Cotações em tempo real**: Acompanhe as flutuações de preços de várias criptomoedas.
+- **Interface intuitiva**: Navegação fácil e amigável para todos os usuários.
+- **Detalhes das criptomoedas**: Informações abrangentes sobre cada moeda, incluindo histórico de preços.
+- **Notificações**: Receba alertas sobre mudanças significativas nos preços.
 
+## Tecnologias Utilizadas
 
-Learn more about [Kotlin Multiplatform](https://www.jetbrains.com/help/kotlin-multiplatform-dev/get-started.html)…
+- **Kotlin Multiplatform**: Para um desenvolvimento eficiente em várias plataformas.
+- **API de criptomoedas**: Integração com APIs para obter dados em tempo real.
+- **Jetpack Compose**: Para construir interfaces de usuário modernas e responsivas.
+
+## Como Executar o Projeto
+
+### Pré-requisitos
+
+- [Kotlin](https://kotlinlang.org/docs/getting-started.html) instalado
+- [Android Studio](https://developer.android.com/studio) configurado
