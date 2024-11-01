@@ -4,7 +4,7 @@ import kotlinx.serialization.SerialName
 import kotlinx.serialization.Serializable
 
 @Serializable
-data class CurrencyData(
+data class CurrencyCoinData(
     val price: Double,
     @SerialName("volume_24h")
     val volume24h: Double?,

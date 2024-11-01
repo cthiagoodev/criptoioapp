@@ -6,5 +6,5 @@ import kotlinx.serialization.Serializable
 @Serializable
 data class Quote(
     @SerialName("BRL")
-    val brl: CurrencyData,
+    val brl: CurrencyCoinData,
 )
