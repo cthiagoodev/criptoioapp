@@ -1,7 +1,9 @@
 package br.com.thiagoodev.criptoio.domain.models
 
 import kotlinx.serialization.SerialName
+import kotlinx.serialization.Serializable
 
+@Serializable
 data class Crypto(
     val id: Int,
     val name: String,
@@ -24,7 +26,7 @@ data class Crypto(
     @SerialName("date_added")
     val dateAdded: String,
     val tags: List<String>?,
-    val platform: String?,
+    val platform: Platform?,
     @SerialName("self_reported_circulating_supply")
     val selfReportedCirculatingSupply: Double?,
     @SerialName("self_reported_market_cap")

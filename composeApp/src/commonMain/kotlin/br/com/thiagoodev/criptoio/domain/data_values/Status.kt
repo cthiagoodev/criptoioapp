@@ -15,6 +15,6 @@ data class Status(
 
     val elapsed: Int,
 
-    @SerialName("credit_code")
+    @SerialName("credit_count")
     val creditCount: Int
 )
